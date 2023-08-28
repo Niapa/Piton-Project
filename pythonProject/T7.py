@@ -9,7 +9,6 @@
 # 0- орел, 1- решка
 
 from random import randint
-
 m = int(input("Введите общее число монет: "))
 arr = [randint(0, 1) for _ in range(m)]
 print(arr)
