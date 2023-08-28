@@ -9,7 +9,6 @@
 # в ответе получим числа x1  и x2
 
 import math
-
 s = int(input("Введите сумму чисел S: "))
 p = float(input("Введите произведение чисел P:"))
 print("Решаем уравнение вида: x^2 -s*x + p = 0")
@@ -18,7 +17,6 @@ b = -1 * s
 c = p
 discr = b ** 2 - 4 * a * c
 print("Дискриминант D = %.2f" % discr)
-
 if discr > 0:
     x1 = (-b + math.sqrt(discr)) / (2 * a)
     x2 = (-b - math.sqrt(discr)) / (2 * a)
