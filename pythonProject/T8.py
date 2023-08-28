@@ -9,13 +9,13 @@
 # в ответе получим числа x1  и x2
 
 import math
+
 s = int(input("Введите сумму чисел S: "))
 p = float(input("Введите произведение чисел P:"))
 print("Решаем уравнение вида: x^2 -s*x + p = 0")
 a = 1
-b = -1*s
+b = -1 * s
 c = p
-# print("a = 1, b = " -1*s ", c = " p)
 discr = b ** 2 - 4 * a * c
 print("Дискриминант D = %.2f" % discr)
 
@@ -29,4 +29,3 @@ elif discr == 0:
     print("x2 = %.2f" % x)
 else:
     print("Корней нет")
-

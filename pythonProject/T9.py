@@ -2,11 +2,10 @@
 (т.е. числа вида 2**k), не превосходящие числа N.
 """
 import math
+
 n = int(input("Введите число N: "))
 m = 1
 k = 1
-while 2**k < n:
-    k = k+1
-    print(2**(k-1))
-
-
+while 2 ** k < n:
+    k = k + 1
+    print(2 ** (k - 1))

@@ -9,6 +9,7 @@
 # 0- орел, 1- решка
 
 from random import randint
+
 m = int(input("Введите общее число монет: "))
 arr = [randint(0, 1) for _ in range(m)]
 print(arr)
@@ -20,11 +21,7 @@ for i in range(len(arr)):
         i += 1
     else:
         i += 1
-if count <= m//2: print('Минимальное количество монет, которые нужно перевернуть: ', count)
+if count <= m // 2:
+    print('Минимальное количество монет, которые нужно перевернуть: ', count)
 else:
     print('Минимальное количество монет, которые нужно перевернуть: ', m - count)
-
-
-
-
-
